@@ -21,7 +21,7 @@ line_count = 0
 
 def print_stats():
     """ Print the computed metrics. """
-    print("Total file size: {}".format(total_size))
+    print("File size: {}".format(total_size))
     for code in sorted(status_codes.keys()):
         if status_codes[code] > 0:
             print("{}: {}".format(code, status_codes[code]))
